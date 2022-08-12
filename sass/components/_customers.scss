@@ -1,0 +1,50 @@
+.customers {
+  padding: 94px 0px 94px 0px;
+  background-color: $white-color;
+  &__header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  margin: 0;
+  color: $black-text-color;
+  }
+  &__list {
+  display: flex;
+  }
+  &__item {
+  border: 1px solid $svgGreyFill;
+  border-radius: 4px;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  margin: 0 15px;
+  justify-content: center;
+  align-items: center;
+  fill: $svgGreyFill;
+    &:hover{
+        fill: $blue-color;
+        border-color: $blue-color;
+        cursor: pointer;
+        transition: background 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    &:focus{
+        fill: $blue-color;
+        border-color: $blue-color;
+        cursor: pointer;
+        transition: background 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+  }
+  &__item-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  fill: $svgGreyFill;
+    &:hover{
+        fill: $blue-color;}
+  }
+}

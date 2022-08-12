@@ -1,0 +1,58 @@
+@import "utils/variables";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  width: 1600px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.active {
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 46px;
+    background: $blue-color;
+    height: 4px;
+    border-radius: 10px 10px 10px 10px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@import "components/header";
+@import "components/footer";
+@import "components/modal";
+@import "components/solutions";
+@import "components/work";
+@import "components/team";
+@import "components/customers";
+@import "components/portfolio";
+@import "components/description";
