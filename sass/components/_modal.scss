@@ -8,7 +8,8 @@
   background-color: $modalBg;
   transition: opacity 250ms, visibility 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &__content{
+
+  &__content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,11 +32,11 @@
   cursor: pointer;
   transition: background 250ms, color 250ms, box-shadow 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
+    &:hover {
         background: $blue-color;
         fill: $white-color;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);}
-    &:focus{
+    &:focus {
         background: $blue-color;
         fill: $white-color;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);}
@@ -80,9 +81,9 @@
   letter-spacing: 0.01em;
   transition: outline 250ms, border 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &::placeholder{
+    &::placeholder {
         color: $modalTextareaPh;}
-    &:focus{
+    &:focus {
         outline: $blue-color;
         border: 1px solid $blue-color;}
   }
@@ -97,7 +98,7 @@
   padding-right: 40px;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:focus-within{
+    &:focus-within {
         fill: $blue-color;}
   }
   &__input {
@@ -109,7 +110,7 @@
   padding-left: 40px;
   transition: outline 250ms, border 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:focus{
+    &:focus {
         outline: $blue-color;
         border: 1px solid $blue-color;}
   }
@@ -130,7 +131,7 @@
   margin-right: 8px;
   transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
+    &:hover {
         border-color: $blue-color;}
   }
   &__checkbox {

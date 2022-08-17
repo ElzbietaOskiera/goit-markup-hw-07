@@ -1,11 +1,12 @@
 .description {
+  padding-top: 94px;
+  
+  &__list {
   display: flex;
   gap: 30px;
   align-items: center;
   margin: auto;
   padding-top: 30px;
-  &__section {
-  padding-top: 94px;
   }
   &__svg {
   display: flex;

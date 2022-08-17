@@ -1,7 +1,8 @@
 .header{
   border-bottom: 1px solid $headerBorder;
   background-color: $white-color;
-  &__logo{
+
+  &__logo {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.2;
@@ -11,19 +12,19 @@
     padding-top: 24px;
     padding-bottom: 25px;
   }
-  &__logo-span{
+  &__logo-span {
     color: $black-color;
   }
-  &__nav{
+  &__nav {
     padding-left: 93px;
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  &__nav-list{
+  &__nav-list {
     display: flex;
     gap: 46px;
   }
-  &__nav-link{
+  &__nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -31,12 +32,12 @@
     text-decoration: none;
     letter-spacing: 0.02em;
     position: relative;
-    &:hover{
+    &:hover {
         color: $blue-color;
         fill: $blue-color;
         transition: color 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
-    &:focus{
+    &:focus {
         color: $blue-color;
         fill: $blue-color;
         transition: color 250ms;
@@ -49,7 +50,8 @@
     padding-bottom: 32px;
     gap: 30px;
   }
-  &__contact-link{color: $grey-color;
+  &__contact-link {
+    color: $grey-color;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -60,12 +62,12 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    &:hover{
+    &:hover {
         color: $blue-color;
         fill: $blue-color;
         transition: color 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
-    &:focus{
+    &:focus {
         color: $blue-color;
         fill: $blue-color;
         transition: color 250ms;

@@ -634,7 +634,7 @@ body {
   background: rgba(47, 48, 58, 0.4);
   background-image: url(/goit-markup-hw-07/images/banerphoto.jpg);
 }
-.solutions__main {
+.solutions__slogan {
   color: #ffffff;
   letter-spacing: 0.06em;
   font-size: 44px;
@@ -711,7 +711,7 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-.work__desc {
+.work__description {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -757,7 +757,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.team__img {
+.team__item {
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -775,7 +775,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
 }
-.team__desc {
+.team__description {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -797,7 +797,7 @@ body {
   margin: auto;
   padding-bottom: 30px;
 }
-.team__socialmedia-links {
+.team__socialmedia-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -808,7 +808,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.team__socialmedia-links:hover {
+.team__socialmedia-link:hover {
   background: #2196f3;
   border-radius: 50%;
   -webkit-transition: background 250ms;
@@ -816,7 +816,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team__socialmedia-links:focus {
+.team__socialmedia-link:focus {
   background: #2196f3;
   border-radius: 50%;
   -webkit-transition: background 250ms;
@@ -908,7 +908,7 @@ body {
   fill: #2196f3;
 }
 
-.portfolio__button-list {
+.portfolio__buttons-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,7 +969,7 @@ body {
   position: relative;
   background-color: #ffffff;
 }
-.portfolio__product-center {
+.portfolio__product-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -984,12 +984,6 @@ body {
   margin: 0;
   position: relative;
   overflow: hidden;
-  -webkit-transition: -webkit-box-shadow 250ms;
-  transition: -webkit-box-shadow 250ms;
-  transition: box-shadow 250ms;
-  transition: box-shadow 250ms, -webkit-box-shadow 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio__product:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1039,6 +1033,9 @@ body {
 }
 
 .description {
+  padding-top: 94px;
+}
+.description__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1048,9 +1045,6 @@ body {
           align-items: center;
   margin: auto;
   padding-top: 30px;
-}
-.description__section {
-  padding-top: 94px;
 }
 .description__svg {
   display: -webkit-box;
